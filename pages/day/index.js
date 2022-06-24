@@ -1,3 +1,10 @@
+import Link from "next/link";
+
 export default function DayPage() {
-  return <div>Hello Day</div>
+  return (
+    <div>
+      <h2>Hello Day</h2>
+      <Link href="/">Home</Link>
+    </div>
+  );
 }
